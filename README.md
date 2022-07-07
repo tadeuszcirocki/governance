@@ -11,3 +11,10 @@ Contracts:
 MyGovernor.sol - governance contract using OpenZeppelin's Governor  
 MyNFT.sol - vote token using OpenZeppelin's ERC721Votes  
 MyToken.sol - ERC20 that governor has power over  
+  
+Test results:  
+Governance voting  
+    ✔ Should mint tokens to address if proposal successful (175ms)  
+    ✔ Execute should revert if voting period has not yet passed (156ms)  
+    ✔ Execute should revert if quorum not reached (79ms)  
+    ✔ Execute should revert if for votes <= against votes (103ms)  
